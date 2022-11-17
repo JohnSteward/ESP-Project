@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <title>Settings</title>
+        <head>
+            <link id="css-sheet" href="../css/settings.css" rel="stylesheet" type="text/css"/>
+        </head>
+    <body>
+        <div class="headline">
+            <label>Settings</label>
+        </div>
+
+        <!-- This should contain all the social media that the user can choose from -->
+        <div class="soc_media_cont">
+            <ul>
+                <li id="yt"><button class="selector" id="YoutubeSelector"><!--<img class="logo" src="/logos/youtube.png">-->YouTube</button></li>
+                <li id="it"><button class="selector" id="InstagramSelector"><!--<img class="logo" src="/logos/instragramLogogo.png">-->Instagram</button></li>
+                <li id="fb"><button class="selector" id="FacebookSelector"><!--<img class="logo" src="/logos/facebook.png">-->Facebook</button></li>
+            </ul>
+            <!--<button id="youtube" class="soc_media">Youtube</button>-->
+        </div>
+        <!--
+        <div class="analytics">
+            <p id="title">Analytics</p>
+            <br>
+            <p>Time spent
+        </div>
+        -->
+        <!-- This should contain all of the features -->
+        <div id="feat_cont">
+            <!-- For each feature we want to add we do this -->
+            <h1>Facebook Settings</h1>
+            <div class="feature">
+                <label class="feature_text" for="extension_contacts">Contacts</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_contacts" id="extension_contacts">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_people">People</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_people" id="extension_people">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_watchblock">Watch</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_watchblock" id="extension_watchblock">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_marketplace">Marketplace</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_marketplace" id="extension_marketplace">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_fbstories">Stories</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_fbstories" id="extension_fbstories">
+                        <span class="slider round"></span>
+                    </label>
+                </div> 
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_fbfeed">Feed</label>
+                <div class="switch_container">
+                    <label class= "switch">
+                        <input type="checkbox" name="extension_fbfeed" id="extension_fbfeed">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+        </div>
+        <script src="../js/newSettings.js"></script>
+        <script src="../js/update/FBupdate.js"></script>
+    </body>
+</html>

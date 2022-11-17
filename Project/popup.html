@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link id="css-sheet" href="css/popupStyle.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <!-- ==================== YouTube Popup ==================== -->
+    <div id="Youtube" style="display: none;">
+      <div class="yt">
+        <label class="media">YouTube</label>
+        <a href="html/settingsYT.html" target="_blank"><img id="settingsIcon" src="settingsIcon.png" alt="Settings icon"></a>
+      </div>
+
+      <div class="features">
+        <div class="labels">
+          <label class="feature_text" for="extension_homePage">Home page</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_homePage" id="extension_homePage">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_comments">Comments</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_comments" id="extension_comments">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_sidebar">Sidebar</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_sidebar" id="extension_sidebar">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_shorts">Shorts</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_shorts" id="extension_shorts">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_explore">Explore</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_explore" id="extension_explore">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_autoplay">Autoplay</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_autoplay" id="extension_autoplay">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="labels">
+          <label class="feature_text" for="extension_notifications">Notifications</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_notifications" id="extension_notifications">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <!-- Timer extension -->
+		<div class="labels">
+          <label class="feature_text_thin" for="extension_timer">Timer</label>
+          <label class= "number-input">
+            <input type="number" name="extension_timer" id="extension_timer" max="1000" style= "width:50px">
+          </label>
+        </div>
+		<div class="labels">
+          <p>Time Left: <time id="time_left">--:--:--</time></p>
+        </div>
+
+      </div>
+    </div>
+<!-- ==================== Instagram Popup ==================== -->
+    <div id="Instagram" style="display: none;">
+      <div class="it">
+        <label class="media">Instagram</label>
+        <a href="html/settingsIT.html" target="_blank"><img id="settingsIcon" src="settingsIcon.png" alt="Settings icon"></a>
+      </div>
+      <div class="features">
+        <div class="labels">
+          <label class="feature_text" for="extension_stories">Stories</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_stories" id="extension_stories">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_discover">Discover</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_discover" id="extension_discover">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_ignotifications">Notifications</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_ignotifications" id="extension_ignotifications">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_sugg">Suggestions</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_sugg" id="extension_sugg">
+            <span class="slider round"></span>
+          </label>
+        </div>  
+        <div class="labels">
+          <label class="feature_text" for="extension_feed">Feed</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_feed" id="extension_feed">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+<!-- ==================== Facebook Popup ==================== -->
+    <div id="Facebook" style="display: none;">
+      <div class="fb">
+        <label class="media">Facebook</label>
+        <a href="html/settingsFB.html" target="_blank"><img id="settingsIcon" src="settingsIcon.png" alt="Settings icon"></a>
+      </div>
+      <div class="features">
+        <div class="labels">
+          <label class="feature_text" for="extension_contacts">Contacts</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_contacts" id="extension_contacts">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_people">People</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_people" id="extension_people">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_watchblock">Watch</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_watchblock" id="extension_watchblock">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="labels">
+          <label class="feature_text" for="extension_marketplace">Marketplace</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_marketplace" id="extension_marketplace">
+            <span class="slider round"></span>
+          </label>
+        </div> 
+        <div class="labels">
+          <label class="feature_text" for="extension_fbstories">Stories</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_fbstories" id="extension_fbstories">
+            <span class="slider round"></span>
+          </label>
+        </div> 
+        <div class="labels">
+          <label class="feature_text" for="extension_fbfeed">Feed</label>
+          <label class= "switch">
+            <input type="checkbox" name="extension_fbfeed" id="extension_fbfeed">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== Default Popup ==================== -->
+    <div id="Default" style="display: none;">
+      <div class="def">
+        <label class="media">Default</label>
+        <a href="html/settingsYT.html" target="_blank"><img id="settingsIcon" src="settingsIcon.png" alt="Settings icon"></a>
+      </div>
+      <div class="features">
+        <p>This page is unfortunately not supported. Click on the icon above to see which sites are supported.</p>
+        <br>
+        <button class="request">Request support for site</button>
+        <br>
+      </div>
+    </div>
+    <script src="js/popup.js"></script>
+    <script src="js/hide/button.js"></script>
+  </body>
+</html>

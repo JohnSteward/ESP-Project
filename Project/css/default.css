@@ -1,0 +1,51 @@
+.relative, .features, .labels {
+    padding: 5px;
+    position: relative;
+}
+
+.relative, .features {
+    width: 140px;
+}
+
+.relative {
+    width: 140px;
+    background-color: rgb(177, 175, 175);
+}
+.features {
+    width: 140px;
+    background-color: rgb(220, 220, 220);
+}
+.labels {
+    margin: 10px;
+}
+
+.nativem, .feature_text {
+    display: inline-block;
+    text-align: center;
+}
+
+.navitem {
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+    border: gray;
+    background-color: #E8562A;
+    color: rgb(15, 218, 55);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.feature_text {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.style-button {
+    margin: 8px;
+    padding: 16px;
+    background-color: #d5e5fd;
+    border-radius: 8px;
+}

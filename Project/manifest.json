@@ -1,0 +1,48 @@
+{
+  "name": "ESP project",
+  "description": "Project to limit social media",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background":
+    {
+        "service_worker": "/js/hide/background.js"
+    },
+
+  
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["/js/hide/Youtube_Hider.js"],
+      "run_at":"document_idle"
+    },
+	{
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["/js/hide/Facebook_Hider.js"],
+      "run_at":"document_idle"
+  },
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["/js/hide/Instagram_Hider.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting",
+      "webRequest",
+      "storage",
+      "background",
+      "declarativeContent"
+  ],
+
+  "icons": {},
+
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*", "https://www.facebook.com/*"
+  ]
+}

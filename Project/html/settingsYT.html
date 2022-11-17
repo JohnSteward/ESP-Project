@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <title>Settings</title>
+        <head>
+            <link id="css-sheet" href="../css/settings.css" rel="stylesheet" type="text/css"/>
+        </head>
+    <body>
+        <div class="headline">
+            <label>Settings</label>
+        </div>
+
+        <!-- This should contain all the social media that the user can choose from -->
+        <div class="soc_media_cont">
+            <ul>
+                <li id="yt"><button class="selector" id="YoutubeSelector"><!--<img class="logo" src="/logos/youtube.png">-->YouTube</button></li>
+                <li id="it"><button class="selector" id="InstagramSelector"><!--<img class="logo" src="/logos/instragramLogogo.png">-->Instagram</button></li>
+                <li id="fb"><button class="selector" id="FacebookSelector"><!--<img class="logo" src="/logos/facebook.png">-->Facebook</button></li>
+            </ul>
+            <!--<button id="youtube" class="soc_media">Youtube</button>-->
+        </div>
+        <!--
+        <div class="analytics">
+            <p id="title">Analytics</p>
+            <br>
+            <p>Time spent
+        </div>
+        -->
+        <!-- This should contain all of the features -->
+        <div id="feat_cont">
+            <!-- For each feature we want to add we do this -->
+            <h1>YouTube Settings</h1>
+            <div class="feature">
+                <label class="feature_text" for="extension_homePage">Home page</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_homePage" id="extension_homePage">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_comments">Comments</label>
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_comments" id="extension_comments">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_sidebar">Sidebar</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_sidebar" id="extension_sidebar">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_shorts">Shorts</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_shorts" id="extension_shorts">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_explore">Explore</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_explore" id="extension_explore">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_autoplay">Autoplay</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_autoplay" id="extension_autoplay">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+            <div class="feature">
+                <label class="feature_text" for="extension_notifications">Notifications</label> 
+                <div class="switch_container">
+                    <label class="switch">
+                        <input type="checkbox" name="extension_notifications" id="extension_notifications">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <br>
+        </div>
+        <script src="../js/newSettings.js"></script>
+        <script src="../js/update/YTupdate.js"></script>
+        <script src="../js/hide/background.js"></script>
+    </body>
+</html>
